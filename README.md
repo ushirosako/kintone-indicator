@@ -25,7 +25,7 @@ It is a program to compile the numerical values of the latest different kintone 
 ~~~less
 $ sudo sh indicator/run.sh 
 Between 2017-06-05 and 2017-05-29
-メンバー登録数: 7,000 (+2,150)
+Members: 7,000 (+2,150)
 PV: 6,000
 UU: 400
 
