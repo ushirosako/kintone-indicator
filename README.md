@@ -1,6 +1,7 @@
 # kintone-indicator
 
 最新の異なるkintoneレコードの数値を集計し、その結果をメール送信するプログラムです。
+
 It is a program to compile the numerical values of the latest different kintone records and e-mail the results.
 
 # Environments
@@ -21,7 +22,7 @@ It is a program to compile the numerical values of the latest different kintone 
 
 # Sample of command
 
-~~~
+~~~less
 $ sudo sh indicator/run.sh 
 Between 2017-06-05 and 2017-05-29
 Members: 5000 (+150)
