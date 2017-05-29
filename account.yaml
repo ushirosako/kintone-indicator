@@ -1,0 +1,15 @@
+# kintone app setting
+# Required: domain, app.id
+# When Basic certification is done: basic.id, basic.password
+# Required selection: login.id/login.password, app.send.token
+domain: *****
+#login:
+#    id: 
+#    password: 
+#basic:
+#    id: 
+#    password: 
+apps:
+    send:
+        id: *****
+        token: **********************************

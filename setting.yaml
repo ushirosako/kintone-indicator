@@ -1,0 +1,16 @@
+project:
+   code: "Indicator: "
+
+app:
+    query: order by $id limit 2
+
+mail:
+    smtp: smtp.*****.com
+    port: 587 
+    to: *****@****.***
+    from: *****@****.***
+    bcc: []
+    #ex) [xxxx@domain.com, xxx@domain.com,..]
+    password: *****
+    charset: utf-8
+    subject: Index calculation result 
