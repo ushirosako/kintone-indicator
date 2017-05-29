@@ -20,9 +20,35 @@ It is a program to compile the numerical values of the latest different kintone 
 | PV              | Number          |                    0 |
 | UU              | Number          |                    0 |
 
+# Settings
+## account.yaml
+kintone subdomain, appliction id, api token
+
+```yaml
+domain: *****
+apps:
+    send:
+        id: *****
+        token: **********************************
+```
+
+## settings.yaml
+mail settings
+
+```yaml
+mail:
+    smtp: *****.*****.com
+    port: 587 
+    to: *****@****.***
+    from: *****@****.***
+    bcc: []
+    #ex) [xxxx@domain.com, xxx@domain.com,..]
+    password: *****
+```
+
 # Sample of command
 
-~~~less
+```less
 $ sudo sh indicator/run.sh 
 Between 2017-06-05 and 2017-05-29
 Members: 7,000 (+2,150)
@@ -30,7 +56,7 @@ PV: 6,000
 UU: 400
 
 Send to mail >>xxx@*****.***
-~~~
+```
 
 # License
 
